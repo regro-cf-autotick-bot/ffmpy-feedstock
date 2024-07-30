@@ -1,5 +1,5 @@
 {% set name = "ffmpy" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ffmpy-{{ version }}.tar.gz
-  sha256: 757591581eee25b4a50ac9ffb9b58035a2794533db47e0512f53fb2d7b6f9adc
+  sha256: 924cde7e0bb1b5eb58d21ada3b1622f95069c98769bbdf100ed381c7e750a55e
 
 build:
   noarch: python
